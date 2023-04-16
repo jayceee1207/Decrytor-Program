@@ -20,3 +20,6 @@ print(name)
 
 username  = input("Please enter your name: ")
 print("Hello, ", username)
+
+result = pyg.figlet_format("\nCODE DECRYPTOR", font = "digital")
+print (result)
