@@ -17,3 +17,5 @@ import pyfiglet as pyg
 author_name = ("PROGRAMMED BY: JOHN CARLO ABLAY")
 name = author_name.center(100)
 print(name)
+
+username  = input("Please enter your name: ")
