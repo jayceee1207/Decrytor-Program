@@ -23,3 +23,9 @@ print("Hello, ", username)
 
 result = pyg.figlet_format("\nCODE DECRYPTOR", font = "digital")
 print (result)
+
+moredata = "yes"
+while moredata == "yes":
+    #Get the code to decrypt from the user
+
+    moredata = str(input("Would you like to run the program again? (yes or no): \n"))
