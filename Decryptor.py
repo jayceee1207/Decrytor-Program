@@ -11,3 +11,9 @@
 #   if character is +, change it to o
 #   if character is !, change it to u
 #Print the resulting output
+
+import pyfiglet as pyg
+
+author_name = ("PROGRAMMED BY: JOHN CARLO ABLAY")
+name = author_name.center(100)
+print(name)
