@@ -19,3 +19,4 @@ name = author_name.center(100)
 print(name)
 
 username  = input("Please enter your name: ")
+print("Hello, ", username)
