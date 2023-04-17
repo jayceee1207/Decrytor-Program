@@ -33,6 +33,14 @@ while moredata == "yes":
     #Print string
     print("Encrypted String: ", input_string)
 
+    #   if character is *, change it to a
+    #   if character is &, change it to e
+    #   if character is #, change it to i
+    #   if character is +, change it to o
+    #   if character is !, change it to u
+    #We can use .replace function to replace each character without using for loop.
+    output_string = input_string.replace('*','a').replace('&','e').replace('#','i').replace('+','o').replace('!','u') 
+
     moredata = str(input("Would you like to run the program again? (yes or no): "))
 
 #Exit if they do not want to use the program again
