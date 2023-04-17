@@ -12,6 +12,7 @@
 #   if character is !, change it to u
 #Print the resulting output
 
+import emoji
 import pyfiglet as pyg
 
 author_name = ("PROGRAMMED BY: JOHN CARLO ABLAY")
@@ -32,4 +33,8 @@ while moredata == "yes":
     #Print string
     print("Encrypted String: ", input_string)
 
-    moredata = str(input("Would you like to run the program again? (yes or no): \n"))
+    moredata = str(input("Would you like to run the program again? (yes or no): "))
+
+#Exit if they do not want to use the program again
+print("\nThank you for using my program!")
+print(emoji.emojize(":grinning_face_with_big_eyes: "))
