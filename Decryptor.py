@@ -18,6 +18,7 @@ author_name = ("PROGRAMMED BY: JOHN CARLO ABLAY")
 name = author_name.center(100)
 print(name)
 
+#Ask the user for their input
 username  = input("Please enter your name: ")
 print("Hello, ", username)
 
@@ -26,6 +27,9 @@ print (result)
 
 moredata = "yes"
 while moredata == "yes":
-    #Get the code to decrypt from the user
+    #Get the code to decrypt from the user 
+    input_string = input("Enter a word: ")
+    #Print string
+    print("Encrypted String: ", input_string)
 
     moredata = str(input("Would you like to run the program again? (yes or no): \n"))
